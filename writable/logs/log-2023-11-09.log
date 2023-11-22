@@ -1,0 +1,36 @@
+CRITICAL - 2023-11-09 15:27:51 --> include(head.php): Failed to open stream: No such file or directory
+in APPPATH\Views\index.php on line 2.
+ 1 APPPATH\Views\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(head.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\index.php', 2)
+ 2 APPPATH\Views\index.php(2): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 15:30:29 --> Undefined variable $title
+in APPPATH\Views\footer.php on line 7.
+ 1 APPPATH\Views\footer.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\footer.php', 7)
+ 2 APPPATH\Views\index.php(250): include('C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 15:43:46 --> include(config/koneksi.php): Failed to open stream: No such file or directory
+in APPPATH\Views\registration.php on line 2.
+ 1 APPPATH\Views\registration.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config/koneksi.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\registration.php', 2)
+ 2 APPPATH\Views\registration.php(2): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PNP_CI\\app\\Views\\registration.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('registration', [], true)
+ 6 APPPATH\Controllers\registration.php(9): view('registration')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\registration->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\registration))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
